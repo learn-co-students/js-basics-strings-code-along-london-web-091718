@@ -1,5 +1,8 @@
 const expect = chai.expect;
-
+currentUser = "Umair";
+welcomeMessage= "Welcome to Flatbook, " + currentUser + "!";
+excitedWelcomeMessage = welcomeMessage.toUpperCase();
+shortGreeting = "Welcome, " + currentUser.slice(0,1) + "!";
 describe('index.js', () => {
   describe('currentUser', () => {
     it('is defined', () => {
